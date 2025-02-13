@@ -1,0 +1,1 @@
+This example demonstrates a potential issue with custom error handling in VBScript using Err.Raise.  The function checks for an empty parameter; if empty, it raises error 9999. However, without proper error handling in the calling code, the behavior can be erratic. The solution shows how to effectively handle the custom error to prevent unexpected termination.
